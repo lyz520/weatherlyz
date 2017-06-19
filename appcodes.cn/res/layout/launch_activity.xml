@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_launch" >
+
+    <ImageView 
+        android:id="@+id/guano_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/guano_icon"
+        android:contentDescription="@string/app_name"/>
+    
+    <TextView 
+        android:id="@+id/逸"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/guano_icon"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:text="@string/launch_guan"/>
+    <TextView
+        android:id="@+id/鑫"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/逸"
+        android:textColor="#fff"
+        android:text="@string/launch_o"
+        android:gravity="center"
+        android:background="@drawable/launch_otext_bg" />
+    <TextView 
+        android:id="@+id/weather"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/鑫"
+        android:textColor="#fff"
+        android:text="@string/launch_weather"/>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        android:text="@string/author"/>
+</RelativeLayout>
